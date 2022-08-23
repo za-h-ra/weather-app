@@ -1,9 +1,10 @@
-function App() {
+import React from "react";
+import WeatherAPI from "./api/api";
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>Weather App</h1>
+    <div>
+      <WeatherAPI />
     </div>
   );
 }
-
-export default App;
