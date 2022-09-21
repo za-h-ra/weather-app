@@ -1,10 +1,9 @@
 import React from "react";
-import WeatherAPI from "./api/api";
 
 export default function App() {
   return (
     <div>
-      <WeatherAPI />
+      <h1>Hello Weather!!</h1>
     </div>
   );
 }
